@@ -1,6 +1,6 @@
-let name = prompt("Inserisci il tuo nome");
+let nome = prompt("Inserisci il tuo nome");
 
-console.log(name);
+console.log(nome);
 
 
 let username = prompt("Inserisci il tuo cognome");
@@ -10,6 +10,13 @@ console.log(username);
 let favoritecolor = prompt("inserisci il tuo colore preferito");
 
 console.log(favoritecolor);
+
+let numero = 23;
+
+let password = nome + username + favoritecolor + numero;
+
+
+document.getElementById('password').innerHTML = 'your password is :' + password;
 
 
 
