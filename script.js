@@ -13,7 +13,11 @@ console.log(favoritecolor);
 
 let numero = 23;
 
+console.log(numero);
+
 let password = nome + username + favoritecolor + numero;
+
+console.log(password);
 
 
 document.getElementById('password').innerHTML = 'your password is :' + password;
